@@ -13,6 +13,9 @@ export default {
 }
 </script>
 
-<style>
-
+<style >
+html,body{
+  margin: 0px;
+  border: 0px;
+}
 </style>
