@@ -2,7 +2,7 @@
   <div>
     <!-- <h3>我是Main</h3> -->
     <el-container>
-      <el-aside width="200px">
+      <el-aside width="auto">
         <common-aside></common-aside>
       </el-aside>
       <el-container>
