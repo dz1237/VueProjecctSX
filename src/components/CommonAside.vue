@@ -88,8 +88,11 @@ export default {
     },
     //点击导航栏跳转
     clickMenu(item){
-      console.log(item);
-      this.$router.push(item.path);
+      // console.log(item);
+      if(this.$route.path !== item.path && !(this.$route.path === '/home' && (item.path === '/'))){
+        this.$router.push(item.path);
+      }
+      
     }
   },
   computed:{
